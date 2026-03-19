@@ -7,12 +7,13 @@ import "bootstrap"
 
 // index.css'
 import '../styles/index.css'
+import '../styles/trafficlight.css'
 
 // components
-import Home from './components/Home';
+import Trafficlight from './components/trafficlight';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <Trafficlight/>
   </React.StrictMode>,
 )
